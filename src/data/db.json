@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Admin",
+      "role": "admin",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Bob Analyst",
+      "role": "analyst",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Viewer",
+      "role": "viewer",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Dan Inactive",
+      "role": "analyst",
+      "status": "active"
+    }
+  ],
+  "records": [
+    {
+      "id": 1,
+      "amount": 5500,
+      "type": "income",
+      "category": "salary",
+      "date": "2024-03-01",
+      "notes": "Salary + Bonus for March"
+    },
+    {
+      "id": 2,
+      "amount": 1200,
+      "type": "expense",
+      "category": "rent",
+      "date": "2024-03-05",
+      "notes": "Apt rent"
+    },
+    {
+      "id": 3,
+      "amount": 250.5,
+      "type": "expense",
+      "category": "Travel",
+      "date": "2024-03-25",
+      "notes": "Flight to New York"
+    }
+  ]
+}
